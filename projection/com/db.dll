@@ -1,0 +1,13 @@
+create database Personal;
+use Personal;
+CREATE TABLE Project (
+	
+	 Id int,
+     projectName varchar(100),
+	 projectIdentifier varchar(100),
+	 description varchar(100),
+	 start_date int ,
+	 end_date int ,
+     created_At int ,
+	 updated_At int 
+);
